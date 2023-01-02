@@ -33,8 +33,7 @@ app.post('/register',(req,res) => {
       url: 'https://ifastnet.com/register2.php',
       headers: { 
         'Referer': "https://" + resellerDomain + "/", 
-        'Content-Type': 'application/x-www-form-urlencoded', 
-        'Cookie': 'PHPSESSID=kd21fl4v5p7tpf0pl9t8gvko74'
+        'Content-Type': 'application/x-www-form-urlencoded'
       },
       data : data
     }
